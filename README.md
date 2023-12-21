@@ -26,11 +26,7 @@ License
 ## Latest Version
 
 - [1.0.0](/versions/1.0.0/README.md)
-
-    - Added the new key (api_domain) in FileStore and DBStore.
-
     - TypeScript SDK upgraded to support v6 APIs.
-
     - TypeScript SDK improved to support the following new APIs
         - [Unsubscribe Links](https://www.zoho.com/crm/developer/docs/api/v6/get-unsubscribe-links.html)
         - [Find and Merge API](https://www.zoho.com/crm/developer/docs/api/v6/merge-records.html)
