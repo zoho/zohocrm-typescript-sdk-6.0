@@ -376,7 +376,7 @@ The **environment** key contains the domain information to make API calls. The *
 
     - By default, the findUser key is set to true, to set userSignature. However, this requires the ***ZohoCRM.users.READ*** and ***ZohoCRM.org.READ*** scopes to be mandatory. If you do not want to set userSignature, you must set the findUser key to false.
 
-    - Use the followoing method for **grantToken flow:**
+    - Use the following method for **grantToken flow:**
     ```ts
     let token: ZOHOCRMSDK.OAuthToken = new ZOHOCRMSDK.OAuthBuilder()
     .clientId("clientId")
