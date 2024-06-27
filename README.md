@@ -36,7 +36,7 @@ License
     - Record ImageUpload ***id*** field datatype changed(BigInt to String).
     - Added new ***type*** and ***ownerId*** param in EmailRelatedRecordsOperations class constructor.
     - Added new ***IDS*** param in GetAppointmentsRescheduledHistoryParam class.
-    - Added new ***ID*** and ***NAME*** in GetDownloadAttachmentsDetailsParam class.
+    - Added new ***ID*** and ***NAME*** param in GetDownloadAttachmentsDetailsParam class.
 
 
 - [2.0.0](/versions/2.0.0/README.md)
