@@ -25,6 +25,20 @@ License
 
 ## Latest Version
 
+- [3.0.0](/versions/3.0.0/README.md)
+    - Changed ***phone*** and ***mobile*** field datatype in Users(BigInt to String).
+    - Added new ***moveAttachmentsTo*** field in LeadConverter class.
+    - Blueprint Transition ***percentPartialSave*** field datatype changed(Integer to Float).
+    - Blueprint Field ***convertMapping*** field datatype changed(ConvertMapping to Map).
+    - Record FileDetails ***id*** field datatype changed(BigInt to String).
+    - Handled Record Field API Name and datatype.
+    - Added new fields (createdTimeS, modifiedTimeS, createdByS, ownerS, and modifiedByS) in Record FileDetails class.
+    - Record ImageUpload ***id*** field datatype changed(BigInt to String).
+    - Added new ***type*** and ***ownerId*** param in EmailRelatedRecordsOperations class constructor.
+    - Added new ***IDS*** param in GetAppointmentsRescheduledHistoryParam class.
+    - Added new ***ID*** and ***NAME*** in GetDownloadAttachmentsDetailsParam class.
+
+
 - [2.0.0](/versions/2.0.0/README.md)
     - Changed favorite field datatype in CustomViews.
     - Changed tabTraversal field datatype in Layouts Sections.
@@ -53,7 +67,7 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-typescript-sd
 ## Including the SDK in your project
 You can include the SDK to your project using:
 
-For including the latest [version](https://github.com/zoho/zohocrm-typescript-sdk-6.0/releases/tag/2.0.0) using npm
+For including the latest [version](https://github.com/zoho/zohocrm-typescript-sdk-6.0/releases/tag/3.0.0) using npm
 
   - Install **Node** from [nodejs.org](https://nodejs.org/en/download/) (if not installed).
 
@@ -124,4 +138,4 @@ For example, if you generate the tokens for your Sandbox environment in the CN d
 > - For **Mass Convert API**, you will need to provide the **ZohoCRM.settings.fields.ALL** scope along with the **ZohoCRM.mass_convert.leads.CREATE** and **ZohoCRM.mass_convert.leads.READ** scope while generating the OAuthtoken. Otherwise, the system returns the **OAUTH-SCOPE-MISMATCH** error.
 
 ---
-For more details, kindly refer [here](/versions/2.0.0/README.md).
+For more details, kindly refer [here](/versions/3.0.0/README.md).
