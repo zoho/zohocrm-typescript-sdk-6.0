@@ -25,6 +25,10 @@ License
 
 ## Latest Version
 
+- [4.0.0](/versions/4.0.0/README.md)
+    - Handled Record `rollup_summary` datatype.
+    - Supported multiple field update operations in the FieldsOperations class.
+
 - [3.0.0](/versions/3.0.0/README.md)
     - Changed ***phone*** and ***mobile*** field datatype in Users(BigInt to String).
     - Added new ***moveAttachmentsTo*** field in LeadConverter class.
@@ -67,7 +71,7 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-typescript-sd
 ## Including the SDK in your project
 You can include the SDK to your project using:
 
-For including the latest [version](https://github.com/zoho/zohocrm-typescript-sdk-6.0/releases/tag/3.0.0) using npm
+For including the latest [version](https://github.com/zoho/zohocrm-typescript-sdk-6.0/releases/tag/4.0.0) using npm
 
   - Install **Node** from [nodejs.org](https://nodejs.org/en/download/) (if not installed).
 
@@ -138,4 +142,4 @@ For example, if you generate the tokens for your Sandbox environment in the CN d
 > - For **Mass Convert API**, you will need to provide the **ZohoCRM.settings.ALL** scope along with the **ZohoCRM.mass_convert.leads.CREATE** and **ZohoCRM.mass_convert.leads.READ** scope while generating the OAuthtoken. Otherwise, the system returns the **OAUTH-SCOPE-MISMATCH** error.
 
 ---
-For more details, kindly refer [here](/versions/3.0.0/README.md).
+For more details, kindly refer [here](/versions/4.0.0/README.md).
