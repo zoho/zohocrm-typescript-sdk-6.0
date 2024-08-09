@@ -951,6 +951,9 @@ class CreateRecords {
             .clientSecret("xxxx")
             .refreshToken("1000.xxxx.xxxx")
             .build();
+        
+        // await new ZOHOCRMSDK.InitializeBuilder() - for InitializeBuilder() constructor 
+        // outer 'await' - to wait for the initialize() method
         await (await new ZOHOCRMSDK.InitializeBuilder())
             .environment(environment)
             .token(token)
